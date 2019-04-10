@@ -1,0 +1,448 @@
+@font-face{
+  font-family: montserrat;
+  src: url(fonts/montserrat/Montserrat-Regular.otf);
+}
+@font-face{
+	font-family: montserratLight;
+	src: url(fonts/montserrat/Montserrat-Light.otf);
+}
+@font-face{
+	font-family: montserratThin;
+	src: url(fonts/montserrat/Montserrat-Thin.otf);
+}
+body{
+	font-family: montserrat;
+}
+/*.row {
+	margin: 0;
+}*/
+/*********************************
+HEADER
+**********************************/
+header .headerLogo img{
+	width: 100px;
+}
+header .headerLogo{
+	text-align: center;
+}
+header .headerMail{
+	text-align: left;
+	font-size: 14px;
+	padding-top: 25px;
+}
+header .headerPhone{
+	text-align: right;
+	font-size: 14px;
+	padding-top: 25px;
+}
+header .headerMail span{
+	color: #002a4b;
+}
+header .headerMail span:hover{
+	color: #f15a22;
+}
+header .headerMail .fa{
+	color: #f15a22;
+}
+header .headerMail a:hover{
+	text-decoration: none;
+}
+.headerSocial{
+	text-align: right;
+    font-size: 25px;
+    padding-top: 25px;
+    color: #002a4b;
+}
+.headerSocial .fa{
+	cursor: pointer;
+	transition: .5s;
+}
+.headerSocial .fa-facebook-official:hover{
+	color: #3b5999;
+	transform: scale(1.5);
+}
+.headerSocial .fa-youtube-square:hover{
+	color: #cd201f;
+	transform: scale(1.5);
+}
+.headerSocial .fa-linkedin-square:hover{
+	color: #0077B5;
+	transform: scale(1.5);
+}
+	
+/*********************************
+NAVIGATION
+**********************************/
+.blackBgr{
+	background: #f15a22;
+	color: #fff;
+	padding: 0;
+}
+.logo{
+	line-height: 2.7;
+}
+.navigator{
+	padding: 0;
+}
+.navOnSmall{
+	display: none;
+}
+.hamburgerIcon{
+	padding-top: 5px;
+	float: right;
+}
+.hamburgerIcon div{
+	width: 20px;
+	border-bottom: 3px solid #fff;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+.mainNav ul li{
+	list-style-type: none;
+	cursor: pointer;
+	padding-top: 15px;
+}
+.mainNav ul li a{
+	color: #fff;
+	position: relative;
+	transition: .5s;
+}
+.mainNav ul li a:hover{
+	color: #002a4b;
+	text-decoration: none;
+}
+.mainUl{
+	padding: 0;
+	text-align: center;
+}
+.mainUl li{
+	display: inline-block;
+	text-align: center;
+	padding: 0 10px;
+}
+#active{
+	color: #002a4b;
+}
+#activeFooter{
+	color: #f15a22;
+	font-weight: 900;
+}
+/*----------------------------------------index.html---------------------------------*/
+
+.carousel-indicators{
+	cursor: pointer;
+}
+.carousel-control-prev-icon{
+	background-color: rgba(0, 0, 0, 0.2);
+	
+}
+.carousel-control-next-icon{
+	background-color: rgba(0, 0, 0, 0.2);
+	
+}
+.indexTopSection{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #002a4b;
+}
+.indexTopSection h1{
+	padding-bottom: 25px;
+	margin: 0 auto;
+}
+.box img{
+	width: 100%;
+}
+/*********************************
+PARTNERS
+**********************************/
+.partners{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.partners img{
+	width: 100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	transition: .5s;
+}
+.partners img:hover{
+	transform: scale(1.1);
+}
+/*********************************
+ABOUT US
+**********************************/
+section .aboutUSBgr{
+	background: url("images/o-nama-glavna.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+}
+.aboutUs .row{
+	display: block;
+}
+.aboutUs .container{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.aboutUs h1, 
+.aboutUs p{
+	color: #002a4b;
+}
+/******************
+FOOTER
+********************/
+footer{
+	background: #002a4b;
+	padding: 50px 0;
+}
+footer h2{
+	color: #fff;
+	margin: 0;
+} 
+footer p,
+footer a{
+	font-family: montserratLight;
+	color: #fff;
+}
+footer a:hover{
+	text-decoration: none;
+	font-weight: 900;
+	color: #fff;
+}
+footer img{
+	width: 100px;
+	margin: 10px 0;
+	transition: .5s;
+}
+footer img:hover{
+	transform: scale(1.1);
+}
+footer ul{
+	padding-left: 0;
+}
+footer ul li{
+	list-style-type: none;
+}
+footer form{
+	text-align: right;
+}
+footer #mail, 
+footer #phone{
+	color: #fff;
+	font-size: 14px;
+	background: #002a4b;
+	width: 100%;
+    border: none;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
+}
+footer #mail:focus, 
+footer #phone:focus{
+	outline: none;
+}
+.footerForm ::-webkit-input-placeholder{
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}
+.footerSocial{
+	text-align: right;
+	margin: 10px 0;
+}
+.footerSocial i{
+	color: #fff;
+	font-size: 40px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+.footerSocial .fa-facebook-official:hover{
+	color: #3b5999;
+}
+.footerSocial .fa-youtube-square:hover{
+	color: #cd201f;
+}
+.footerSocial .fa-linkedin-square:hover{
+	color: #0077B5;
+}
+#send{
+	color: #fff;
+	background: transparent;
+	border: 1px solid  rgba(255, 255, 255, 0.5);
+	padding: 20px 50px;
+	cursor: pointer;
+	outline: none;
+	transition: .3s;
+}
+#send:hover{
+	background: #f15a22;
+	color: #002a4b;
+	border: 1px solid #f15a22;
+}
+.footerContact, 
+.footerInfo,
+.footerForm{
+	padding: 0;
+}
+/*-----------------------------------------kontakt.html-------------------------------------*/
+#map{
+	width: 100%;
+	height: 400px;
+}
+.contact{
+	padding: 50px 0;
+}
+.contact .row:first-child{
+	display: block;
+}
+.contact h2, 
+.contact h1, 
+.contact p{
+	color: #002a4b;
+}
+.contactOffice p, 
+.contactServices p{
+	color: #f15a22;
+}
+.contactOffice a, 
+.contactServices a{
+	color: #002a4b;
+}
+.contactOffice a:hover, 
+.contactServices a:hover{
+	text-decoration: none;
+	font-weight: 900;
+}
+.contactForm h2{
+	text-align: center;
+}
+.contactForm {
+	display: block;
+}
+.contactForm form input{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin: 5px 0;
+	padding: 10px 5px;
+	outline: none;
+}
+.contactForm form input:focus{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.contactForm form textarea:focus{
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.contactForm form textarea{
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 5px;
+	outline: none;
+}
+#sendContact{
+	background: #002a4b;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: 1s;
+}
+#sendContact:hover{
+	width: 100%;
+	background: #f15a22;
+	transform: scale(1.1);
+}
+/*----------------------------------------prodaja.html----------------------------------------*/
+section .sellBgr{
+	background: url("images/slide-3.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+}
+/*----------------------------------------service.html----------------------------------------*/
+section .serviceBgr{
+	background: url("images/slide-2.jpg") no-repeat;
+	background-size: cover;
+	background-position: left;
+	padding: 200px 0;
+}
+/*----------------------------------------delovi.html----------------------------------------*/
+section .sparePartsBgr{
+	background: url("images/slide-1.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 0;
+}
+/******************
+MEDIA
+********************/
+@media (max-width: 1200px){
+	.mainNav ul li a{
+		font-size: 15px;
+	}
+}
+@media (max-width: 992px) { 
+	.mainNav{
+		display: none;
+	}
+	.navOnSmall{
+		display: block;
+	}
+	/*small-menu*/
+	.onSmallMainUl{
+		display: none;
+		padding-top: 10px;
+	}
+	.onSmallMainUl li{
+		list-style-type: none;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.onSmallMainUl li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.row.contactForm, 
+	.margin-0{
+		margin: 0;
+	}
+	.contactForm, 
+	.contact h1{
+		padding: 0 15px;
+	}
+}
+@media (max-width: 767px) { 
+	header .headerMail, 
+	header .headerSocial{
+		text-align: center;
+		line-height: 3;
+		padding: 0;
+	}
+	section .aboutUSBgr{
+		padding: 100px 0;
+	}
+ }
+@media (max-width: 576px) {
+	.aboutUs .row:nth-child(1){
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.carousel-indicators, 
+	.carousel-caption p{
+		display: none;
+	}
+	.carousel-caption{
+		bottom: 50px;
+	}
+	.indexTopSection{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+@media (max-width: 425px) {
+	.carousel-caption{
+		bottom: 0;
+	}
+}
+@media (max-width: 320px) {
+	.carousel-caption {
+    	bottom: -20px;
+	}
+}
